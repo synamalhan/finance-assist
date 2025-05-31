@@ -2,3 +2,8 @@ streamlit
 matplotlib
 pandas
 requests
+numpy
+transformers
+torch
+accelerate
+sentencepiece
