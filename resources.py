@@ -1,6 +1,5 @@
 import streamlit as st
 def resources_page():
-    st.header("📚 Resource Center")
 
     resources = {
         "Social Security": "https://www.ssa.gov/",

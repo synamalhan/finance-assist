@@ -2,7 +2,6 @@ import streamlit as st
 from datetime import datetime
 
 def alerts_reminders():
-    st.header("🔔 Alerts & Reminders")
     today = datetime.today().date()
 
     # Hardcoded important dates (can later be loaded from a database or API)

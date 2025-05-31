@@ -2,7 +2,6 @@ import streamlit as st
 from ollama_client import query_ollama
 
 def chat_page():
-    st.title("💬 Simple Finance & Economics Chatbot for 65+")
 
     if "messages" not in st.session_state:
         st.session_state.messages = []

@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import streamlit as st
 
 def investment_simulator():
-    st.header("📈 Safe Investment Simulator")
 
     st.write("Answer these questions to find an investment style that fits you.")
 
