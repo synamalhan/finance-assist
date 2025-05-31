@@ -5,7 +5,7 @@ import torch
 
 # Load a small model suitable for local use (e.g., TinyLLaMA, Phi, or GPT2)
 # For better performance try "mistralai/Mistral-7B-Instruct-v0.1" if you have a good GPU
-model_name = "mistralai/Mistral-7B-Instruct-v0.1"  # swap if needed
+model_name = "gpt2"  # swap if needed
 
 # Load model and tokenizer (this will download on first run)
 tokenizer = AutoTokenizer.from_pretrained(model_name)
