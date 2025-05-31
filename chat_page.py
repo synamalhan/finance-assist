@@ -26,7 +26,7 @@ def chat_page():
             message_placeholder = st.empty()
             message_placeholder.markdown("⏳ Thinking...")
 
-            response = query_ollama(prompt)
+            response = query_transformers(prompt)
             message_placeholder.markdown(response)
 
             # Save bot response to chat history
