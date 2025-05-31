@@ -1,12 +1,15 @@
 # fred_data.py
 import requests
 import pandas as pd
+import streamlit as st
+
+fred_api_key = st.secrets["FRED"]["api_key"]
 
 def fetch_fred_data(series_id,start_date='2000-01-01'):
     url = "https://api.stlouisfed.org/fred/series/observations"
     params = {
         'series_id': series_id,
-        'api_key': "0328c649ab34b6e310e1228c6ab73569",
+        'api_key': fred_api_key ,
         'file_type': 'json',
         'observation_start': start_date
     }
