@@ -6,4 +6,4 @@ numpy
 transformers
 torch
 accelerate
-sentencepiece
+
