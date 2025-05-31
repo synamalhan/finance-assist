@@ -17,8 +17,7 @@ generator = pipeline("text-generation", model=model, tokenizer=tokenizer)
 def query_transformers(prompt):
     try:
         full_prompt = (
-            "Explain this in simple terms suitable for someone aged 65+. "
-            "Use non-technical terms and provide examples where possible: " + prompt
+            "Explain this in simple terms suitable for someone aged 65+. " + prompt
         )
         output = generator(full_prompt, max_new_tokens=300, temperature=0.7)[0]["generated_text"]
         return output[len(full_prompt):].strip()
