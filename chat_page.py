@@ -1,5 +1,5 @@
 import streamlit as st
-from transformers_client import query_transformers
+from ollama_client import query_ollama
 
 def chat_page():
     st.title("💬 Simple Finance & Economics Chatbot for 65+")
@@ -26,7 +26,7 @@ def chat_page():
             message_placeholder = st.empty()
             message_placeholder.markdown("⏳ Thinking...")
 
-            response = query_transformers(prompt)
+            response = query_ollama(prompt)
             message_placeholder.markdown(response)
 
             # Save bot response to chat history
