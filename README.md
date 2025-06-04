@@ -1,37 +1,19 @@
 # Finance Helper
+Finance Helper is designed specifically for senior citizens to help them confidently manage their finances and adapt to new technology. The project focuses on making financial tasks simple, accessible, and secure.
 
-Finance Helper is a personal project designed to simplify and automate common financial tasks. It aims to help users manage budgets, track expenses, and gain insights into their financial habits.
+## Key Features
 
-## Features
+- **Chatbot Assistance:** Friendly chatbot to explain financial concepts and technology in easy-to-understand language.
+- **Visual Insights:** Clear, visual representations of financial trends to help track changes and make informed decisions.
+- **Alerts & Reminders:** Timely notifications to stay on top of important deadlines and financial tasks.
+- **Safe Investment Simulation & Resources:** Tools and educational materials to explore safe investment options and learn more about financial planning.
+- **User-Friendly Design:** Intuitive interface tailored for those who may not be technically advanced.
 
-- Expense tracking
-- Budget management
-- Financial analytics and reports
-- User-friendly interface
+## Motivation
 
-## Why This Project Was Created
+Finance Helper was created to support senior citizens facing new challenges with managing money and technology. By providing clear guidance, visual tools, and helpful reminders, the project aims to empower users to take control of their finances with confidence.
 
-This project was created to address the challenges of manual financial management. Many people struggle to keep track of their spending and savings. Finance Helper provides an easy-to-use tool to automate these processes, empowering users to make informed financial decisions and achieve their financial goals.
-
-## Getting Started
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/synamalhan/finance-assist.git
-    ```
-2. Install dependencies:
-    ```bash
-    cd finance-helper
-    npm install
-    ```
-3. Start the application:
-    ```bash
-    npm start
-    ```
-
-## Contributing
-
-Contributions are welcome! Please open issues or submit pull requests for improvements.
+[GitHub Repository](https://github.com/synamalhan/finance-assist.git)
 
 ## License
 
